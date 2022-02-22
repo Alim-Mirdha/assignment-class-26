@@ -1,0 +1,200 @@
+/* DEFAULT CSS START HERE */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+form:focus{
+    outline: none;
+}
+button:focus{
+    outline: none;
+}
+ul{
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+
+/* DEFAULT CSS END HERE */
+/***********************************
+!    	CLINT  AREA START HERE     !
+***********************************/
+.clint-testimonial {
+    padding: 100px 0;
+}
+.clint-content h5 {
+    color: #3C6FEE;
+    font-size: 17px;
+}
+.clint-content h1 {
+    font-weight: 800;
+    margin: 15px 0 35px;
+    position: relative;
+}
+.clint-content h1::before {
+    content: "";
+    width: 12%;
+    height: 3px;
+    position: absolute;
+    bottom: -18px;
+    left: 0;
+    background: #3C6FEE;
+}
+.clint-content p {
+    color: #888094;
+    font-size: 17px;
+    width: 84%;
+}
+.clint-item{
+    height: 153px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+    border: 1px solid #ddd;
+}
+.clint-item:hover{
+    background-color: #F6F9FC;
+}
+.clint-item img{
+    width: 100%;
+    height: 100px;
+}
+/***********************************
+!    	CLINT  AREA END HERE       !
+***********************************/
+/***********************************
+!    	BLOG  AREA START HERE      !
+***********************************/
+.blog-area .clint-content h1{
+    position: relative;
+}
+.blog-area .clint-content h1::before {
+    content: "";
+    width: 12%;
+    height: 3px;
+    position: absolute;
+    bottom: -14px;
+    left: 44%;
+    background: #3C6FEE;
+}
+.blog-area{
+    padding: 100px 0;
+}
+.blog-hearer-text p {
+    width: 100%;
+    font-size: 17px;
+    color: #888094;
+}
+.blog-hearer-text {
+    padding-bottom: 60px;
+}
+
+.blog-item{
+    position: relative;
+}
+
+.blog-item h5 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.blog-item p {
+    color: #888094;
+    margin-top: 12px !important;
+    font-size: 15px;
+}
+.blog-item .card-body {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.blog-content {
+    background-color: #3C6FEE;
+    width: fit-content;
+    margin-left: auto;
+    padding: 5px 7px;
+    color: #fff;
+    border-radius: 36px;
+    position: absolute;
+    top: 174px;
+    right: 21px;
+}
+.blog-content img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.blog-content span {
+    font-size: 12px;
+    margin-left: 13px;
+    margin-top: 5px;
+}
+/***********************************
+!    	BLOG  AREA END HERE        !
+***********************************/
+/***********************************
+!    	FOOTER  AREA START HERE   !
+***********************************/
+.footer-area{
+    background: #081828;
+    color: #fff;
+}
+.footer-top{
+    padding: 100px 0 70px;
+}
+.fiiter-wiget img {
+    width: 150px;
+}
+.fiiter-wiget p {
+    width: 80%;
+    margin: 25px 0;
+    line-height: 25px;
+}
+.footer-icon ul li a {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 31px;
+}
+.footer-icon ul li {
+    display: inline-block;
+}
+.fiiter-wiget h4 {
+    margin-bottom: 30px;
+    position: relative;
+}
+.fiiter-wiget h4::before {
+    content: "";
+    width: 3px;
+    height: 23px;
+    background-color: #3C6FEE;
+    position: absolute;
+    top: 4px;
+    left: -14px;
+}
+.menu-item ul li a {
+    color: #545E6C;
+    margin-bottom: 11px;
+    font-weight: 700;
+    display: block;
+}
+
+.footer-text {
+    border-top: 1px solid #545E6C;
+    padding: 25px 0;
+}
+.footer-text p {
+    margin: 0;
+    font-size: 15px;
+}
